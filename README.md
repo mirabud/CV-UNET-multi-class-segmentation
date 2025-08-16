@@ -2,7 +2,7 @@
 A Computer Vision &amp; Deep learning project on bone fracture medical data
 
 ### Dataset
-I used a dataset called [FracAtlas] dataset (https://www.kaggle.com/datasets/mahmudulhasantasin/fracatlas-original-dataset/data) - it is a dataset of X-Ray scans curated from the images collected from 3 major hospitals in Bangladesh. It contains 2 global labels: fractured and non-fractured bones, additionally containing fracture annotations for each fractured bone. The dataset includes 4,083 images, where 717 images with 922 instances of fractures.
+I used a dataset called [FracAtlas](https://www.kaggle.com/datasets/mahmudulhasantasin/fracatlas-original-dataset/data) dataset - it is a dataset of X-Ray scans curated from the images collected from 3 major hospitals in Bangladesh. It contains 2 global labels: fractured and non-fractured bones, additionally containing fracture annotations for each fractured bone. The dataset includes 4,083 images, where 717 images with 922 instances of fractures.
 This dataset could be easily used for binary segmentation with 2 classes (fractures and everything else); however, I wanted to work on multi-class segmentation with 3 classes: fractures, bones, and blank space.
 
 ### Data pre-processing
