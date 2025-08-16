@@ -11,12 +11,12 @@ In the dataset, there is only one class - fracture, so I had to do preprocessing
 ### Training and results
 I used classic UNET architecture and trained it 50 epochs with batch size 16. As metrics, I chose Accuracy, loss, and meanIoU.
 
-In testing, the results are below:
+In training, the results are below:
 Accuracy is =  99.59%
 Mean IoU is =  83%
 Loss is =  02%
 
-However, per-class IoU results are:
+However, per-class IoU results in testing are:
 IoU for class 0: 99.88%
 
 IoU for class 1: 97.92%
