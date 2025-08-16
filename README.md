@@ -13,13 +13,16 @@ I used classic UNET architecture and trained it 50 epochs with batch size 16. As
 
 In testing, the results are below:
 Accuracy is =  99.59%
-Mean IoU is =  0.83%
-Loss is =  0.02%
+Mean IoU is =  83%
+Loss is =  02%
 
 However, per-class IoU results are:
-IoU for class 0: 0.9988
-IoU for class 1: 0.9792
-IoU for class 2: 0.2586
+IoU for class 0: 99.88%
+
+IoU for class 1: 97.92%
+
+IoU for class 2: 25.86%
+
 Mean IoU: 0.7455
 <img width="1254" height="416" alt="image" src="https://github.com/user-attachments/assets/02a00dda-945e-43bf-bd2f-693948e632c3" />
 
